@@ -4,6 +4,7 @@ import Script_Machine as Sm
 import Gui
 import tkinter as tk
 
+
 def main():
     parser = Ps.Parser()
     gui = Gui.NetworkScannerGUI(tk.Tk())
